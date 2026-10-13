@@ -37,7 +37,7 @@ nav a {
 
 .cloud {
     position: fixed;
-    top: calc(5em - var(--scrollPosition) / 100);
+    top: calc(5em - var(--scrollPosition) / 5);
     z-index: -2;
     height: auto;
     width: calc(min(max(20em, 100vw / 4), 25em));
