@@ -58,6 +58,24 @@ nav a {
     width: 100%;
 }
 
+#sun {
+    z-index: -3;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#sunshine {
+    position: fixed;
+    border-radius: 100%;
+    box-shadow: yellow 0 0 100vw;
+    right: -322px;
+    top: -322px;
+    z-index: -4;
+    width: 636px;
+    height: 636px;
+}
+
 footer {
     position: fixed;
     bottom: 0;
