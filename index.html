@@ -28,10 +28,18 @@
             In meiner Freizeit spiele ich gerne Videospiele, programmiere nutzlose Sachen zum Spaß oder treffe mich mit Freunden.
         </p>
     </div>
+    <img src="Cloud.png" class="cloud" style="right: 10vw;">
+    <img src="Cloud.png" class="cloud" style="left: 10vw;">
+    <img src="Landscape.png" id="landscape">
     <footer>
         <span class="center">
         &copy; 2026 Herwig Orlich
         </span>
     </footer>
+    <script>
+        document.onscroll = e => {
+            document.documentElement.style.setProperty('--scrollPosition', window.scrollY + "em");
+        }
+    </script>
 </body>
 </html>
