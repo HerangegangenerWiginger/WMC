@@ -6,11 +6,11 @@ body {
 }
 
 a {
-    color: rgba(0, 125, 255);
+    color: rgba(0, 125, 255, 1.0);
 }
 
 h1 {
-    background-color: rgba(0, 10, 50);
+    background-color: rgba(0, 10, 50, 0.7);
     border-radius: 0.5rem;
     width: fit-content;
     padding: 0.5rem;
@@ -39,7 +39,7 @@ button {
 }
 
 button:active {
-    background-color: rgba(40, 40, 40);
+    background-color: rgba(40, 40, 40, 0.9);
 }
 
 .quiz {
