@@ -15,18 +15,42 @@ body {
 
 h1 {
     font-size: 3em;
+    background-color: rgba(0, 183, 255, 0.8);
+    border-radius: 0.5rem;
+    padding: 0 1rem;
+}
+
+h2 {
+    margin: 1rem;
 }
 
 p {
     font-size: 1.5em;
+    margin: 0;
 }
 
 a {
     color: #6a6aff;
 }
 
+ul {
+    text-align: left;
+    width: fit-content;
+}
+
 nav a {
     margin-right: 0.5em;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+section {
+    background-color: rgba(0, 115, 150, 0.507);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 0.5rem;
 }
 
 .center {
@@ -34,6 +58,7 @@ nav a {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .cloud {
