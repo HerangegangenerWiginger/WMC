@@ -23,10 +23,23 @@ h1 {
 h2 {
     margin: 1rem;
 }
-
+    
 p {
     font-size: 1.5em;
     margin: 0;
+}
+
+.aside-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside {
+    width: 20rem;
+    background-color: rgba(156, 0, 247, 0.631);
+    border-radius: 1rem;
+    padding: 1rem;
 }
 
 a {
