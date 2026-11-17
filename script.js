@@ -10,7 +10,6 @@ function handleTime(overrideHour = null) {
     }
     const timeOfDay = new Date().getTime() % (1000 * 60 * 60 * 24)
     let hour = timeOfDay / 1000 / 60 / 60
-    console.log(hour)
     if (overrideHour !== null) {
         hour = overrideHour
     }
