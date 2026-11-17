@@ -13,7 +13,25 @@ function handleTime(overrideHour = null) {
     if (overrideHour !== null) {
         hour = overrideHour
     }
-    setCSSProperty("--dayBrightness", getDayPercent(hour), "%")
+
+    const dayPercent = getDayPercent(hour)
+    setCSSProperty("--dayBrightness", dayPercent, "%")
+
+    function hideSun(hide) {
+        const sun = document.getElementById("sun");
+        const shine = document.getElementById("sunshine");
+
+        if (hide) {
+            sun.style.display = "none"
+            shine.style.display = "none"
+        }
+        else {
+            sun.style.display = "block"
+            shine.style.display = "block"
+        }
+    }
+    
+    hideSun(dayPercent < 75)
 }
 
 document.onscroll = e => {
